@@ -1,0 +1,56 @@
+/* * {
+  outline: red 1px solid;
+} */
+
+button {
+  background-color: rgb(18, 131, 18);
+  border-color: rgb(18, 131, 18);
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+div h3 {
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+table td,
+table th {
+  border: 1px solid #110522;
+  text-align: center;
+  padding: 2px 0px;
+}
+
+thead {
+  margin-bottom: 5px;
+}
+
+.block {
+  padding: 5px 20px;
+  border: 1px solid black;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.header {
+  background-color: lightgray;
+  padding: 5px 5px;
+  width: 97%;
+  text-align: center;
+}
+
+.sub-header {
+  background-color: beige;
+  padding: 5px 5px;
+  width: 97%;
+  text-align: center;
+}
+
+.technologies-table {
+  width: 100%;
+}
