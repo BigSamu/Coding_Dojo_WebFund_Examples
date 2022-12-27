@@ -12,8 +12,10 @@
     <!-- I) Header Information -->
     <div class="block">
       <h1 class="header">Samuel Valdes</h1>
-      <img src="pictures/samuel.jpg" alt="samuel's selfie" height="128px" />
-      <p>
+      <div class="photo-profile">
+        <img src="pictures/samuel.jpg" alt="samuel's selfie" height="128px" />
+      </div>
+      <p class="links">
         <img src="pictures/github.png" alt="github_logo" height="16px" />
         <a href="https://github.com/BigSamu">GitHub</a> |
         <img src="pictures/linkedin.png" alt="linkedin_logo" height="16px" />
@@ -76,17 +78,24 @@
     <div class="block">
       <h3 class="sub-header">Contact Me</h3>
       <form>
-        <div>
+        <!-- Name -->
+        <div class="form-input">
           <label>Name:</label>
           <input type="text" name="name" />
+        </div>
+        <!-- Email -->
+        <div class="form-input">
           <label>Email:</label>
           <input type="text" name="email" />
         </div>
-        <div>
+        <!-- Message -->
+        <div class="form-input">
           <label>Message:</label>
           <textarea name="message" cols="40" rows="3"></textarea>
         </div>
-        <button type="submit" value="Send Message">Send Message</button>
+        <div>
+          <button type="submit" value="Send Message">Send Message</button>
+        </div>
       </form>
     </div>
   </body>

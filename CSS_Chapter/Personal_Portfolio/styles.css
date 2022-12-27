@@ -30,8 +30,27 @@ thead {
   margin-bottom: 5px;
 }
 
+a,
+label {
+  display: inline-block;
+  vertical-align: top;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+}
+
+.links {
+  text-align: center;
+}
+
+.photo-profile {
+  text-align: center;
+}
+
 .block {
-  padding: 5px 20px;
+  padding: 10px 20px;
   border: 1px solid black;
   width: 50%;
   margin-bottom: 10px;
@@ -53,4 +72,8 @@ thead {
 
 .technologies-table {
   width: 100%;
+}
+
+.form-input {
+  margin-bottom: 10px;
 }
