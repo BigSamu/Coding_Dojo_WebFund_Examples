@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 0.1) Metadata Information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 0.2) Page Title -->
+    <title>Dojo Sports News Network</title>
+
+    <!-- 0.3) Styles and Scripts -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div>
+      <!-- I) Header Panel -->
+      <div id="header" class="container">
+        <h3 id="header-title">Live Scores</h3>
+        <div id="header-scores-summary">
+          <div>
+            <p>SJC Ninjas - 314</p>
+            <p>NS Pirates - 159</p>
+          </div>
+          <div>
+            <p>CHI Samurai - 0</p>
+            <p>TUL Wizards - 0</p>
+          </div>
+          <div>
+            <p>BOS Hackers - 13</p>
+            <p>TYO Youkai - 37</p>
+          </div>
+          <div>
+            <p>BOI Knights - 5</p>
+            <p>SEA Sea Lions - 11</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- II) Nav Panel -->
+      <div id="nav" class="container">
+        <h2 id="nav-page-logo">
+          <span>DSNN</span>
+        </h2>
+        <div id="nav-menu">
+          <ul id="nav-list">
+            <li class="nav-link">Football</li>
+            <li class="nav-link">Basketball</li>
+            <li class="nav-link">Baseball</li>
+            <li class="nav-link">Scoccer</li>
+            <li class="nav-link">More...</li>
+          </ul>
+          <div id="nav-buttons">
+            <img
+              src="images/search-light.png"
+              alt="search-light"
+              height="32px"
+            />
+            <img
+              src="images/hamburger-light.png"
+              alt="hamburger-light"
+              height="32px"
+            />
+            <img
+              src="images/user-circle-light.png"
+              alt="user-circle-light"
+              height="32px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- III) Main Panel -->
+      <div id="main">
+        <!-- 3.1) Left Panel -->
+        <div id="left-panel">
+          <div id="top-stories" class="box">
+            <h3>Top Stories</h3>
+            <hr />
+            <p>
+              Ninjas up big in 5th <br />
+              Best sports cities <br />
+              Choi joins Hall of Fame <br />
+              Tournament underway <br />
+              Samurai at Wizards...
+            </p>
+          </div>
+          <div class="box">
+            <p><strong>Customize your DSNN</strong></p>
+            <div class="sign-buttons">
+              <button id="sign-in-button">Sign In</button>
+              <button id="sign-up-button">Sign Up</button>
+            </div>
+          </div>
+          <div id="never-miss-a-play" class="box">
+            <p><strong>Never miss a play</strong></p>
+            <div class="sign-buttons">
+              <button id="suscribe-button" onclick="hide('never-miss-a-play')">
+                Suscribe
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3.2) Right Panel -->
+        <div id="right-panel" class="box">
+          <!-- 3.2.1) Main Title -->
+          <div id="main-title">
+            <h1 id="red-main-title">
+              <span id="red-dot"></span>
+              <span>Live</span>
+            </h1>
+            <h1>Ninjas Leading Pirates</h1>
+          </div>
+
+          <!-- 3.2.2) Main Content -->
+          <div id="main-content">
+            <!-- 3.2.2.1) San Jose Ninjas -->
+            <div class="team-scores">
+              <img
+                src="images/sjc-ninjas.png"
+                alt="sjc-ninjas-logo"
+                height="144px"
+              />
+              <div>
+                <p>San Jose</p>
+                <h1 id="sjn-styles">Ninjas</h1>
+                <small>(10W - 3L)</small>
+                <h1 class="big-font-size" onclick="increment(this)">314</h1>
+              </div>
+            </div>
+
+            <!-- 3.2.2.2) Versus -->
+            <div id="versus">
+              <h3>VS</h3>
+              <small>0:13 remaining 5th period</small>
+            </div>
+
+            <!-- 3.2.2.3) Nova Scotia Pirates -->
+            <div class="team-scores">
+              <img
+                src="images/ns-pirates.png"
+                alt="ns-pirates-logo"
+                height="144px"
+              />
+              <div>
+                <p>Nova Scotia</p>
+                <h1 id="ns-pirates-styles">Pirates</h1>
+                <small>(12W - 2L)</small>
+                <h1 class="big-font-size" onclick="increment(this)">159</h1>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <p id="game-description">
+            <span
+              >A conservative match between the two top-performing sides in the
+              Central League Division with a number 1 seed a stake...</span
+            >
+            <a href="#">get live updates</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- IV) Footer Panel-->
+      <div id="footer">
+        <p id="footer-text">
+          <small>© 2022 Copyright: Dojo Sport Network News</small>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
