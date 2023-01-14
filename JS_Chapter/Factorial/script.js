@@ -26,7 +26,7 @@ function factorialWhileLoop(num) {
 
 // Driver Code
 
-console.log("\nTESTING FACTORIAL WITH FOR LOOP")
+console.log('\nTESTING FACTORIAL WITH FOR LOOP');
 var test_1 = factorialForLoop(5);
 console.log(test_1);
 var test_2 = factorialForLoop(0);
@@ -34,7 +34,7 @@ console.log(test_2);
 var test_3 = factorialForLoop(-1);
 console.log(test_3);
 
-console.log("\nTESTING FACTORIAL WITH WHILE LOOP")
+console.log('\nTESTING FACTORIAL WITH WHILE LOOP');
 var test_4 = factorialForLoop(5);
 console.log(test_4);
 var test_5 = factorialForLoop(0);
