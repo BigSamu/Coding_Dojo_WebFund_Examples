@@ -1,0 +1,23 @@
+*{
+    outline: 1px black dashed;
+}
+
+.red{
+    height:150px;
+    background-color: red;
+    
+}
+
+.blue{
+    height:100px;
+    background-color: blue;
+}
+.green{
+    height:50px;
+    background-color: green;
+}
+
+.yellow{
+    height: 15px;
+    background-color: yellow;
+}
